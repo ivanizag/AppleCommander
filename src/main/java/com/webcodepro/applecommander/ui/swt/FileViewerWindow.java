@@ -150,7 +150,8 @@ public class FileViewerWindow {
 		content.setLayoutData(gridData);
 		content.addListener(SWT.KeyUp, createToolbarCommandHandler());
 		
-		courier = new Font(shell.getDisplay(), "Courier", 10, SWT.NORMAL); //$NON-NLS-1$
+		courier = new Font(shell.getDisplay(), "Monospace", 10, SWT.NORMAL); //$NON-NLS-1$
+		//courier = new Font(shell.getDisplay(), "Courier", 10, SWT.NORMAL); //$NON-NLS-1$
 		black = new Color(shell.getDisplay(), 0, 0, 0);
 		blue = new Color(shell.getDisplay(), 0, 0, 192);
 		green = new Color(shell.getDisplay(), 0, 192, 0);
